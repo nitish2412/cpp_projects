@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zenith/cpp_projects/web_server/src/main.cpp
+iostream
+-
+server.hpp
+/home/zenith/cpp_projects/web_server/src/server.hpp
+
+/home/zenith/cpp_projects/web_server/src/server.cpp
+server.hpp
+/home/zenith/cpp_projects/web_server/src/server.hpp
+unistd.h
+-
+cstring
+-
+iostream
+-
+thread_pool.hpp
+/home/zenith/cpp_projects/web_server/src/thread_pool.hpp
+
+/home/zenith/cpp_projects/web_server/src/server.hpp
+netinet/in.h
+-
+string
+-
+
+/home/zenith/cpp_projects/web_server/src/thread_pool.hpp
+thread
+-
+queue
+-
+mutex
+-
+condition_variable
+-
+functional
+-
+vector
+-
+
