@@ -2,24 +2,35 @@
 #include "../hpp/AuthManager.hpp"
 #include "../hpp/OrderManager.hpp"
 #include "../hpp/ApiRequestManager.hpp"
-#include "../hpp/WebSocketServer.hpp"
-#include "../hpp/MarketDataStreamer.hpp"
+
+#include "../hpp/WebSocketClient.hpp"
+#include "../hpp/SubscriptionManager.hpp"
+#include "../hpp/MessageHandler.hpp"
+
+#include <boost/beast/core.hpp>
+#include <boost/beast/websocket.hpp>
+#include <boost/asio.hpp>
+
 using namespace std;
 
 int main(){
     cout<<"hello world\n";
+    // Step 1: Create WebSocketClient instance
+    boost::asio::io_context io_context;
+    //WebSocketClient client(io_context,"wss://www.deribit.com/ws/api/v2");
+    WebSocketClient client(io_context,"http://www.deribit.com/ws/api/v2");
 
-    //websocket server test
-    asio::io_context ioc;
+    // Step 2: Create SubscriptionManager instance
+    SubscriptionManager manager(client);
 
-    WebSocketServer server(ioc, 8080);
-    server.run();
+    // Step 3: Create MessageHandler instance
+    MessageHandler messageHandler(manager);
 
-    MarketDataStreamer streamer(server.getClientManager());
-    streamer.start();
+    // Step 4: Set MessageHandler in WebSocketClient
+    client.setMessageHandler(messageHandler);
 
-    ioc.run();
-    //end 
+    // Connect to the WebSocket server
+    client.connect();
     // Replace with your actual client ID and secret
     std::string client_id = "NwlKlPaT";
     std::string client_secret = "WbfqBP49qWBL1MuacHhK9rXQ5BmBjvKSSOx20_e0QmA";
