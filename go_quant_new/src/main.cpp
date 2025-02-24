@@ -11,9 +11,6 @@ int main(){
     cout<<"Hello world\n";
     //WebSocketClient wsClient;
     //wsClient.connect();
-    
-    RestServer rest_server;
-    rest_server.run(8080);
 
     // Replace with your actual client ID and secret
     std::string client_id = "NwlKlPaT";
@@ -29,17 +26,25 @@ int main(){
     } else {
         std::cout << "Authentication failed!" << std::endl;
     }
-    
-    /*web socket code start */
-    //WebSocketServer server(9001);
-    int port = 9001;
-    WebSocketServer server(port, auth_manager);  // Pass AuthManager
-    server.run();
-     /*web socket code start */
-
 
     ApiRequestManager api_manager(&auth_manager);
     OrderManager orderManager(&api_manager);
+
+    RestServer rest_server(&orderManager);
+    rest_server.run(8080);
+
+
+    /*web socket code start */
+    //WebSocketServer server(9001);
+
+    /*int port = 9001;
+    WebSocketServer server(port, auth_manager);  // Pass AuthManager
+    server.run();*/
+
+     /*web socket code start */
+
+
+    
     //OrderManager orderManager(&auth_manager);
     // Test Place Order
     /*std::cout << "Testing Place Order..." << std::endl;
@@ -58,13 +63,13 @@ int main(){
         std::cerr << "Failed to modify order." << std::endl;
     }*/
 
-    std::cout << "Testing Cancel Order..." << std::endl;
+    /*std::cout << "Testing Cancel Order..." << std::endl;
     std::string orderId = "32758739819";  // Replace with actual order ID
     if (orderManager.cancelOrder(orderId)) {
         std::cout << "Order cancelled successfully." << std::endl;
     } else {
         std::cout << "Failed to cancel order." << std::endl;
-    }
+    }*/
 
     /*std::cout << "View order book..." << std::endl;
     std::string instrumentName = "BTC-PERPETUAL"; // Replace with your desired instrument

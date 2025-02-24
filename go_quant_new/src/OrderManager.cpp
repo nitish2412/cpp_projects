@@ -92,9 +92,9 @@ bool OrderManager::modifyOrder(const std::string& orderId, double newQuantity, d
 
 
 // View order book
-bool OrderManager::viewOrderBook(const std::string& instrumentName) {
+bool OrderManager::viewOrderBook(const std::string& instrumentName,std::string& responseString) {
     std::string url = baseUrl + "/api/v2/public/get_order_book?instrument_name=" + instrumentName;
-        std::string responseString;
+        //std::string responseString;
         std::string dummy_data = instrumentName;
         if (!apiRequestManager->sendRequest(url, "GET", dummy_data, responseString)) {
             return false;
@@ -105,32 +105,39 @@ bool OrderManager::viewOrderBook(const std::string& instrumentName) {
     
 }
 
-//View current positions
-bool OrderManager::viewCurrentPositions() {
-    // Call the API to get the current positions
+// View current positions
+bool OrderManager::viewCurrentPositions(std::string& responseString) {
     std::string url = baseUrl + "/api/v2/private/get_positions";
-    std::string responseString;
     std::string dummy_data = "dummy";
-    if (!apiRequestManager->sendRequest(url, "GET", dummy_data, responseString)) {
-            return false;
-    }
-    return processResponse(responseString);
 
+    // Call the API and fetch response
+    if (!apiRequestManager->sendRequest(url, "GET", dummy_data, responseString)) {
+        return false;
+    }
+
+    // Process response (error checking)
+    return processResponse(responseString);
 }
 
-//process json data
-bool OrderManager::processResponse(const std::string& responseString) {
-        try {
-            json responseJson = json::parse(responseString);
-            if (responseJson.contains("error")) {
-                std::cerr << "Error: " << responseJson.dump(4) << std::endl;
-                return false;
-            }
-            std::cout << "Response: " << responseJson.dump(4) << std::endl;
-            return true;
-        } catch (json::parse_error& e) {
-            std::cerr << "JSON parsing error: " << e.what() << std::endl;
+
+// Process JSON response
+bool OrderManager::processResponse(std::string& responseString) {
+    try {
+        json responseJson = json::parse(responseString);
+
+        // Check if response contains an error
+        if (responseJson.contains("error")) {
+            std::cerr << "Error: " << responseJson.dump(4) << std::endl;
             return false;
         }
+
+        // Convert JSON to string and return valid response
+        responseString = responseJson.dump(4); // Pretty-print JSON
+        return true;
+
+    } catch (json::parse_error& e) {
+        std::cerr << "JSON parsing error: " << e.what() << std::endl;
+        return false;
     }
+}
 

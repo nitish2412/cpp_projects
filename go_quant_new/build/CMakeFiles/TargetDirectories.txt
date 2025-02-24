@@ -1,0 +1,3 @@
+/home/zenith/cpp_projects/go_quant_new/build/CMakeFiles/go_quant_new.dir
+/home/zenith/cpp_projects/go_quant_new/build/CMakeFiles/edit_cache.dir
+/home/zenith/cpp_projects/go_quant_new/build/CMakeFiles/rebuild_cache.dir

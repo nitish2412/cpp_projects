@@ -10,7 +10,7 @@ private:
     ApiRequestManager* apiRequestManager;
     //AuthManager* authManager;
     std::string baseUrl = "https://test.deribit.com";
-    bool processResponse(const std::string& responseString);
+    bool processResponse(std::string& responseString);
 
 public:
     // Constructor
@@ -27,10 +27,10 @@ public:
     bool modifyOrder(const std::string& orderId, double newQuantity, double newPrice);
 
     // Function to view the order book
-    bool viewOrderBook(const std::string& instrument);
+    bool viewOrderBook(const std::string& instrument,std::string& responseString);
 
     // view current position
-    bool viewCurrentPositions();
+    bool viewCurrentPositions(std::string& responseString);
 
     // Destructor
     ~OrderManager() = default;
