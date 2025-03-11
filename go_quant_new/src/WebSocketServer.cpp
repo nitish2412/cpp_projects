@@ -30,7 +30,11 @@ WebSocketServer::WebSocketServer(int port, AuthManager& authManager)
 }
 
 void WebSocketServer::run() {
+    std::cout << "[WebSocket] Entering run()..." << std::endl;
+
     app.run();
+
+    std::cout << "[WebSocket] Exiting run() unexpectedly!" << std::endl;  // Should never print
 }
 
 void WebSocketServer::addClient(uWS::WebSocket<false, true, PerClientData> *ws) {

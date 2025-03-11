@@ -32,6 +32,8 @@ public:
     // view current position
     bool viewCurrentPositions(std::string& responseString);
 
+    bool fetchInstruments(std::string& responseString);
+
     // Destructor
     ~OrderManager() = default;
 };

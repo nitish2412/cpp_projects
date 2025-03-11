@@ -1,0 +1,20 @@
+[2025-02-28 23:49:40] [info] [Logger.cpp:25 getInstance] Application started
+[2025-02-28 23:49:40] [info] [main.cpp:18 main] Application started
+[2025-02-28 23:49:40] [warning] [main.cpp:19 main] Application started
+[2025-02-28 23:49:40] [error] [main.cpp:20 main] Application started
+[2025-02-28 23:49:40] [info] [AuthManager.cpp:11 AuthManager] AuthManager initaited..
+[2025-02-28 23:49:41] [info] [AuthManager.cpp:62 authenticate] Successfully Get Access token..
+[2025-02-28 23:49:41] [info] [main.cpp:34 main] Authentication successful!
+[2025-02-28 23:49:41] [info] [main.cpp:53 main] [WebSocket] Running on port 9001...
+[2025-02-28 23:49:41] [info] [main.cpp:47 operator()] [REST] Running on port 8080...
+[2025-03-01 00:09:29] [info] [Logger.cpp:25 getInstance] Application started
+[2025-03-01 00:09:29] [info] [main.cpp:18 main] Application started
+[2025-03-01 00:09:29] [warning] [main.cpp:19 main] Application started
+[2025-03-01 00:09:29] [error] [main.cpp:20 main] Application started
+[2025-03-01 00:09:29] [info] [AuthManager.cpp:11 AuthManager] AuthManager initaited..
+[2025-03-01 00:09:30] [info] [AuthManager.cpp:62 authenticate] Successfully Get Access token..
+[2025-03-01 00:09:30] [info] [main.cpp:34 main] Authentication successful!
+[2025-03-01 00:09:30] [info] [ApiRequestManager.cpp:11 ApiRequestManager] Api request classs initiated...
+[2025-03-01 00:09:30] [info] [main.cpp:53 main] [WebSocket] Running on port 9001...
+[2025-03-01 00:09:30] [info] [main.cpp:47 operator()] [REST] Running on port 8080...
+[2025-03-01 00:10:24] [info] [ApiRequestManager.cpp:65 sendRequest] API request successful: https://test.deribit.com/api/v2/public/get_order_book?instrument_name=BTC-PERPETUAL

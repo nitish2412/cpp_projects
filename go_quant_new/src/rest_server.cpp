@@ -114,6 +114,7 @@ void RestServer::setupRoutes() {
             return crow::response(500, "{\"error\": \"Failed to get orderbook\"}");
         }
     });
+
 }
 
 void RestServer::run(int port) {

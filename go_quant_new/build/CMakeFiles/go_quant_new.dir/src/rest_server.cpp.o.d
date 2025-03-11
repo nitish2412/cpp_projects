@@ -1641,6 +1641,56 @@ CMakeFiles/go_quant_new.dir/src/rest_server.cpp.o: \
  /home/zenith/cpp_projects/go_quant_new/src/../hpp/../hpp/OrderManager.hpp \
  /home/zenith/cpp_projects/go_quant_new/src/../hpp/../hpp/../hpp/ApiRequestManager.hpp \
  /home/zenith/cpp_projects/go_quant_new/src/../hpp/../hpp/../hpp/../hpp/AuthManager.hpp \
+ /home/zenith/cpp_projects/go_quant_new/src/../hpp/../hpp/../hpp/../hpp/../hpp/Logger.hpp \
+ /home/zenith/cpp_projects/go_quant_new/libs/spdlog/include/spdlog/spdlog.h \
+ /home/zenith/cpp_projects/go_quant_new/libs/spdlog/include/spdlog/common.h \
+ /home/zenith/cpp_projects/go_quant_new/libs/spdlog/include/spdlog/details/null_mutex.h \
+ /home/zenith/cpp_projects/go_quant_new/libs/spdlog/include/spdlog/tweakme.h \
+ /home/zenith/cpp_projects/go_quant_new/libs/spdlog/include/spdlog/fmt/fmt.h \
+ /home/zenith/cpp_projects/go_quant_new/libs/spdlog/include/spdlog/fmt/bundled/core.h \
+ /home/zenith/cpp_projects/go_quant_new/libs/spdlog/include/spdlog/fmt/bundled/format.h \
+ /home/zenith/cpp_projects/go_quant_new/libs/spdlog/include/spdlog/fmt/bundled/base.h \
+ /home/zenith/cpp_projects/go_quant_new/libs/spdlog/include/spdlog/fmt/bundled/format-inl.h \
+ /home/zenith/cpp_projects/go_quant_new/libs/spdlog/include/spdlog/fmt/bundled/format.h \
+ /home/zenith/cpp_projects/go_quant_new/libs/spdlog/include/spdlog/common-inl.h \
+ /home/zenith/cpp_projects/go_quant_new/libs/spdlog/include/spdlog/details/registry.h \
+ /home/zenith/cpp_projects/go_quant_new/libs/spdlog/include/spdlog/details/periodic_worker.h \
+ /home/zenith/cpp_projects/go_quant_new/libs/spdlog/include/spdlog/details/periodic_worker-inl.h \
+ /home/zenith/cpp_projects/go_quant_new/libs/spdlog/include/spdlog/details/registry-inl.h \
+ /home/zenith/cpp_projects/go_quant_new/libs/spdlog/include/spdlog/logger.h \
+ /home/zenith/cpp_projects/go_quant_new/libs/spdlog/include/spdlog/details/backtracer.h \
+ /home/zenith/cpp_projects/go_quant_new/libs/spdlog/include/spdlog/details/circular_q.h \
+ /home/zenith/cpp_projects/go_quant_new/libs/spdlog/include/spdlog/details/log_msg_buffer.h \
+ /home/zenith/cpp_projects/go_quant_new/libs/spdlog/include/spdlog/details/log_msg.h \
+ /home/zenith/cpp_projects/go_quant_new/libs/spdlog/include/spdlog/details/log_msg-inl.h \
+ /home/zenith/cpp_projects/go_quant_new/libs/spdlog/include/spdlog/details/os.h \
+ /home/zenith/cpp_projects/go_quant_new/libs/spdlog/include/spdlog/details/os-inl.h \
+ /usr/include/x86_64-linux-gnu/sys/syscall.h \
+ /usr/include/x86_64-linux-gnu/asm/unistd.h \
+ /usr/include/x86_64-linux-gnu/asm/unistd_64.h \
+ /usr/include/x86_64-linux-gnu/bits/syscall.h \
+ /home/zenith/cpp_projects/go_quant_new/libs/spdlog/include/spdlog/details/log_msg_buffer-inl.h \
+ /home/zenith/cpp_projects/go_quant_new/libs/spdlog/include/spdlog/details/backtracer-inl.h \
+ /home/zenith/cpp_projects/go_quant_new/libs/spdlog/include/spdlog/logger-inl.h \
+ /home/zenith/cpp_projects/go_quant_new/libs/spdlog/include/spdlog/pattern_formatter.h \
+ /home/zenith/cpp_projects/go_quant_new/libs/spdlog/include/spdlog/formatter.h \
+ /home/zenith/cpp_projects/go_quant_new/libs/spdlog/include/spdlog/pattern_formatter-inl.h \
+ /home/zenith/cpp_projects/go_quant_new/libs/spdlog/include/spdlog/details/fmt_helper.h \
+ /home/zenith/cpp_projects/go_quant_new/libs/spdlog/include/spdlog/mdc.h \
+ /home/zenith/cpp_projects/go_quant_new/libs/spdlog/include/spdlog/sinks/sink.h \
+ /home/zenith/cpp_projects/go_quant_new/libs/spdlog/include/spdlog/sinks/sink-inl.h \
+ /home/zenith/cpp_projects/go_quant_new/libs/spdlog/include/spdlog/sinks/ansicolor_sink.h \
+ /home/zenith/cpp_projects/go_quant_new/libs/spdlog/include/spdlog/details/console_globals.h \
+ /home/zenith/cpp_projects/go_quant_new/libs/spdlog/include/spdlog/sinks/ansicolor_sink-inl.h \
+ /home/zenith/cpp_projects/go_quant_new/libs/spdlog/include/spdlog/details/synchronous_factory.h \
+ /home/zenith/cpp_projects/go_quant_new/libs/spdlog/include/spdlog/version.h \
+ /home/zenith/cpp_projects/go_quant_new/libs/spdlog/include/spdlog/spdlog-inl.h \
+ /home/zenith/cpp_projects/go_quant_new/libs/spdlog/include/spdlog/sinks/basic_file_sink.h \
+ /home/zenith/cpp_projects/go_quant_new/libs/spdlog/include/spdlog/details/file_helper.h \
+ /home/zenith/cpp_projects/go_quant_new/libs/spdlog/include/spdlog/details/file_helper-inl.h \
+ /home/zenith/cpp_projects/go_quant_new/libs/spdlog/include/spdlog/sinks/base_sink.h \
+ /home/zenith/cpp_projects/go_quant_new/libs/spdlog/include/spdlog/sinks/base_sink-inl.h \
+ /home/zenith/cpp_projects/go_quant_new/libs/spdlog/include/spdlog/sinks/basic_file_sink-inl.h \
  /home/zenith/cpp_projects/go_quant_new/src/../hpp/../hpp/../hpp/../hpp/json.hpp \
  /usr/include/c++/13/forward_list /usr/include/c++/13/bits/forward_list.h \
  /usr/include/c++/13/bits/forward_list.tcc /usr/include/c++/13/valarray \
@@ -1669,4 +1719,5 @@ CMakeFiles/go_quant_new.dir/src/rest_server.cpp.o: \
  /usr/include/x86_64-linux-gnu/curl/header.h \
  /usr/include/x86_64-linux-gnu/curl/websockets.h \
  /usr/include/x86_64-linux-gnu/curl/mprintf.h \
+ /home/zenith/cpp_projects/go_quant_new/src/../hpp/../hpp/../hpp/../hpp/Logger.hpp \
  /home/zenith/cpp_projects/go_quant_new/src/../hpp/OrderManager.hpp

@@ -11,6 +11,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/zenith/cpp_projects/go_quant_new/src/ApiRequestManager.cpp" "CMakeFiles/go_quant_new.dir/src/ApiRequestManager.cpp.o" "gcc" "CMakeFiles/go_quant_new.dir/src/ApiRequestManager.cpp.o.d"
   "/home/zenith/cpp_projects/go_quant_new/src/AuthManager.cpp" "CMakeFiles/go_quant_new.dir/src/AuthManager.cpp.o" "gcc" "CMakeFiles/go_quant_new.dir/src/AuthManager.cpp.o.d"
   "/home/zenith/cpp_projects/go_quant_new/src/ClientSession.cpp" "CMakeFiles/go_quant_new.dir/src/ClientSession.cpp.o" "gcc" "CMakeFiles/go_quant_new.dir/src/ClientSession.cpp.o.d"
+  "/home/zenith/cpp_projects/go_quant_new/src/Logger.cpp" "CMakeFiles/go_quant_new.dir/src/Logger.cpp.o" "gcc" "CMakeFiles/go_quant_new.dir/src/Logger.cpp.o.d"
   "/home/zenith/cpp_projects/go_quant_new/src/MarketDataFetcher.cpp" "CMakeFiles/go_quant_new.dir/src/MarketDataFetcher.cpp.o" "gcc" "CMakeFiles/go_quant_new.dir/src/MarketDataFetcher.cpp.o.d"
   "/home/zenith/cpp_projects/go_quant_new/src/MessageHandler.cpp" "CMakeFiles/go_quant_new.dir/src/MessageHandler.cpp.o" "gcc" "CMakeFiles/go_quant_new.dir/src/MessageHandler.cpp.o.d"
   "/home/zenith/cpp_projects/go_quant_new/src/OrderManager.cpp" "CMakeFiles/go_quant_new.dir/src/OrderManager.cpp.o" "gcc" "CMakeFiles/go_quant_new.dir/src/OrderManager.cpp.o.d"

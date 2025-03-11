@@ -4,6 +4,7 @@
 #include "../hpp/json.hpp"
 #include <curl/curl.h>
 #include <string>
+#include "../hpp/Logger.hpp"
 
 using json = nlohmann::json;
 
@@ -11,10 +12,10 @@ using json = nlohmann::json;
 class ApiRequestManager {
 private:
     AuthManager* authManager;
+    std::shared_ptr<spdlog::logger> logger; // Store logger as a member
 
 public:
     ApiRequestManager(AuthManager* authManager);
-    //bool sendRequest(std::string& url, const std::string& method, json& requestBody, std::string& responseString);
     bool sendRequest(std::string& url, const std::string& method, std::string& request_data, std::string& responseString);
 
 };

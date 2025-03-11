@@ -12,6 +12,8 @@ pkg_check_modules(LWS REQUIRED libwebsockets)
 find_package(CURL REQUIRED)
 
 
+add_definitions(-DSPDLOG_ENABLE_ASYNC_LOGGING)
+
 # Find Boost (Ensure Boost is installed on your system)
 find_package(Boost REQUIRED COMPONENTS date_time)
 
@@ -21,6 +23,7 @@ include_directories(${CMAKE_SOURCE_DIR}/libs/uSockets/src)
 include_directories(${LWS_INCLUDE_DIRS})
 include_directories(${Boost_INCLUDE_DIRS})
 include_directories(${CURL_INCLUDE_DIRS})
+include_directories(${CMAKE_SOURCE_DIR}/libs/spdlog/include)
 
 # Link directories
 link_directories(${LWS_LIBRARY_DIRS})

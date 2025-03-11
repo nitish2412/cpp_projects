@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/go_quant_new.dir/src/AuthManager.cpp.o.d"
   "CMakeFiles/go_quant_new.dir/src/ClientSession.cpp.o"
   "CMakeFiles/go_quant_new.dir/src/ClientSession.cpp.o.d"
+  "CMakeFiles/go_quant_new.dir/src/Logger.cpp.o"
+  "CMakeFiles/go_quant_new.dir/src/Logger.cpp.o.d"
   "CMakeFiles/go_quant_new.dir/src/MarketDataFetcher.cpp.o"
   "CMakeFiles/go_quant_new.dir/src/MarketDataFetcher.cpp.o.d"
   "CMakeFiles/go_quant_new.dir/src/MessageHandler.cpp.o"

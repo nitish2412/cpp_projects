@@ -149,9 +149,25 @@ CMakeFiles/go_quant_new.dir/src/main.cpp.o: \
  /usr/include/c++/13/bits/locale_facets.tcc \
  /usr/include/c++/13/bits/basic_ios.tcc \
  /usr/include/c++/13/bits/ostream.tcc /usr/include/c++/13/istream \
- /usr/include/c++/13/bits/istream.tcc \
- /home/zenith/cpp_projects/go_quant_new/src/../hpp/AuthManager.hpp \
- /home/zenith/cpp_projects/go_quant_new/src/../hpp/OrderManager.hpp \
+ /usr/include/c++/13/bits/istream.tcc /usr/include/c++/13/thread \
+ /usr/include/c++/13/bits/std_thread.h \
+ /usr/include/c++/13/bits/unique_ptr.h \
+ /usr/include/c++/13/bits/this_thread_sleep.h \
+ /usr/include/c++/13/bits/chrono.h /usr/include/c++/13/ratio \
+ /usr/include/c++/13/cstdint \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
+ /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+ /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
+ /usr/include/c++/13/limits /usr/include/c++/13/ctime \
+ /usr/include/c++/13/bits/parse_numbers.h /usr/include/c++/13/chrono \
+ /home/zenith/cpp_projects/go_quant_new/libs/spdlog/include/spdlog/spdlog.h \
+ /home/zenith/cpp_projects/go_quant_new/libs/spdlog/include/spdlog/common.h \
+ /home/zenith/cpp_projects/go_quant_new/libs/spdlog/include/spdlog/details/null_mutex.h \
+ /usr/include/c++/13/atomic /usr/include/c++/13/bits/atomic_base.h \
+ /usr/include/c++/13/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/13/utility /usr/include/c++/13/bits/stl_relops.h \
+ /home/zenith/cpp_projects/go_quant_new/libs/spdlog/include/spdlog/tweakme.h \
+ /usr/include/c++/13/functional /usr/include/c++/13/bits/std_function.h \
  /usr/include/c++/13/unordered_map \
  /usr/include/c++/13/bits/unordered_map.h \
  /usr/include/c++/13/bits/hashtable.h \
@@ -159,45 +175,38 @@ CMakeFiles/go_quant_new.dir/src/main.cpp.o: \
  /usr/include/c++/13/ext/aligned_buffer.h \
  /usr/include/c++/13/bits/enable_special_members.h \
  /usr/include/c++/13/bits/node_handle.h \
- /usr/include/c++/13/bits/erase_if.h \
- /home/zenith/cpp_projects/go_quant_new/src/../hpp/../hpp/ApiRequestManager.hpp \
- /home/zenith/cpp_projects/go_quant_new/src/../hpp/../hpp/../hpp/AuthManager.hpp \
- /home/zenith/cpp_projects/go_quant_new/src/../hpp/../hpp/../hpp/json.hpp \
- /usr/include/c++/13/algorithm /usr/include/c++/13/bits/stl_algo.h \
- /usr/include/c++/13/bits/algorithmfwd.h \
- /usr/include/c++/13/bits/stl_heap.h \
- /usr/include/c++/13/bits/uniform_int_dist.h \
- /usr/include/c++/13/bits/stl_tempbuf.h \
- /usr/include/c++/13/pstl/glue_algorithm_defs.h \
- /usr/include/c++/13/pstl/execution_defs.h /usr/include/c++/13/functional \
- /usr/include/c++/13/bits/std_function.h /usr/include/c++/13/vector \
+ /usr/include/c++/13/bits/erase_if.h /usr/include/c++/13/vector \
  /usr/include/c++/13/bits/stl_uninitialized.h \
  /usr/include/c++/13/bits/stl_vector.h \
  /usr/include/c++/13/bits/stl_bvector.h \
  /usr/include/c++/13/bits/vector.tcc /usr/include/c++/13/array \
- /usr/include/c++/13/compare /usr/include/c++/13/iterator \
- /usr/include/c++/13/bits/stream_iterator.h /usr/include/c++/13/memory \
+ /usr/include/c++/13/compare /usr/include/c++/13/bits/stl_algo.h \
+ /usr/include/c++/13/bits/algorithmfwd.h \
+ /usr/include/c++/13/bits/stl_heap.h \
+ /usr/include/c++/13/bits/uniform_int_dist.h \
+ /usr/include/c++/13/bits/stl_tempbuf.h /usr/include/c++/13/memory \
  /usr/include/c++/13/bits/stl_raw_storage_iter.h \
- /usr/include/c++/13/bits/align.h \
- /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
- /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
- /usr/include/c++/13/bits/unique_ptr.h \
- /usr/include/c++/13/bits/shared_ptr.h \
+ /usr/include/c++/13/bits/align.h /usr/include/c++/13/bits/shared_ptr.h \
  /usr/include/c++/13/bits/shared_ptr_base.h \
  /usr/include/c++/13/bits/allocated_ptr.h \
  /usr/include/c++/13/ext/concurrence.h \
  /usr/include/c++/13/bits/shared_ptr_atomic.h \
- /usr/include/c++/13/bits/atomic_base.h \
- /usr/include/c++/13/bits/atomic_lockfree_defines.h \
  /usr/include/c++/13/backward/auto_ptr.h \
- /usr/include/c++/13/pstl/glue_memory_defs.h /usr/include/c++/13/utility \
- /usr/include/c++/13/bits/stl_relops.h /usr/include/c++/13/forward_list \
- /usr/include/c++/13/bits/forward_list.h \
- /usr/include/c++/13/bits/forward_list.tcc /usr/include/c++/13/map \
- /usr/include/c++/13/bits/stl_tree.h /usr/include/c++/13/bits/stl_map.h \
- /usr/include/c++/13/bits/stl_multimap.h /usr/include/c++/13/valarray \
- /usr/include/c++/13/cmath /usr/include/math.h \
+ /usr/include/c++/13/pstl/glue_memory_defs.h \
+ /usr/include/c++/13/pstl/execution_defs.h \
+ /home/zenith/cpp_projects/go_quant_new/libs/spdlog/include/spdlog/fmt/fmt.h \
+ /home/zenith/cpp_projects/go_quant_new/libs/spdlog/include/spdlog/fmt/bundled/core.h \
+ /home/zenith/cpp_projects/go_quant_new/libs/spdlog/include/spdlog/fmt/bundled/format.h \
+ /home/zenith/cpp_projects/go_quant_new/libs/spdlog/include/spdlog/fmt/bundled/base.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/limits.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h \
+ /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/uio_lim.h /usr/include/string.h \
+ /usr/include/strings.h /usr/include/c++/13/cmath /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
@@ -207,8 +216,7 @@ CMakeFiles/go_quant_new.dir/src/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
- /usr/include/c++/13/bits/specfun.h /usr/include/c++/13/limits \
- /usr/include/c++/13/tr1/gamma.tcc \
+ /usr/include/c++/13/bits/specfun.h /usr/include/c++/13/tr1/gamma.tcc \
  /usr/include/c++/13/tr1/special_function_util.h \
  /usr/include/c++/13/tr1/bessel_function.tcc \
  /usr/include/c++/13/tr1/beta_function.tcc \
@@ -219,7 +227,99 @@ CMakeFiles/go_quant_new.dir/src/main.cpp.o: \
  /usr/include/c++/13/tr1/modified_bessel_func.tcc \
  /usr/include/c++/13/tr1/poly_hermite.tcc \
  /usr/include/c++/13/tr1/poly_laguerre.tcc \
- /usr/include/c++/13/tr1/riemann_zeta.tcc \
+ /usr/include/c++/13/tr1/riemann_zeta.tcc /usr/include/c++/13/cstring \
+ /home/zenith/cpp_projects/go_quant_new/libs/spdlog/include/spdlog/fmt/bundled/format-inl.h \
+ /usr/include/c++/13/algorithm \
+ /usr/include/c++/13/pstl/glue_algorithm_defs.h \
+ /usr/include/c++/13/climits /usr/include/c++/13/locale \
+ /usr/include/c++/13/bits/locale_facets_nonio.h \
+ /usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h \
+ /usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h \
+ /usr/include/libintl.h /usr/include/c++/13/bits/codecvt.h \
+ /usr/include/c++/13/bits/locale_facets_nonio.tcc \
+ /usr/include/c++/13/bits/locale_conv.h \
+ /home/zenith/cpp_projects/go_quant_new/libs/spdlog/include/spdlog/fmt/bundled/format.h \
+ /home/zenith/cpp_projects/go_quant_new/libs/spdlog/include/spdlog/common-inl.h \
+ /usr/include/c++/13/iterator /usr/include/c++/13/bits/stream_iterator.h \
+ /home/zenith/cpp_projects/go_quant_new/libs/spdlog/include/spdlog/details/registry.h \
+ /home/zenith/cpp_projects/go_quant_new/libs/spdlog/include/spdlog/details/periodic_worker.h \
+ /usr/include/c++/13/condition_variable \
+ /usr/include/c++/13/bits/std_mutex.h \
+ /usr/include/c++/13/bits/unique_lock.h /usr/include/c++/13/mutex \
+ /home/zenith/cpp_projects/go_quant_new/libs/spdlog/include/spdlog/details/periodic_worker-inl.h \
+ /home/zenith/cpp_projects/go_quant_new/libs/spdlog/include/spdlog/details/registry-inl.h \
+ /home/zenith/cpp_projects/go_quant_new/libs/spdlog/include/spdlog/logger.h \
+ /home/zenith/cpp_projects/go_quant_new/libs/spdlog/include/spdlog/details/backtracer.h \
+ /home/zenith/cpp_projects/go_quant_new/libs/spdlog/include/spdlog/details/circular_q.h \
+ /usr/include/c++/13/cassert /usr/include/assert.h \
+ /home/zenith/cpp_projects/go_quant_new/libs/spdlog/include/spdlog/details/log_msg_buffer.h \
+ /home/zenith/cpp_projects/go_quant_new/libs/spdlog/include/spdlog/details/log_msg.h \
+ /home/zenith/cpp_projects/go_quant_new/libs/spdlog/include/spdlog/details/log_msg-inl.h \
+ /home/zenith/cpp_projects/go_quant_new/libs/spdlog/include/spdlog/details/os.h \
+ /home/zenith/cpp_projects/go_quant_new/libs/spdlog/include/spdlog/details/os-inl.h \
+ /usr/include/x86_64-linux-gnu/sys/stat.h \
+ /usr/include/x86_64-linux-gnu/bits/stat.h \
+ /usr/include/x86_64-linux-gnu/bits/struct_stat.h \
+ /usr/include/x86_64-linux-gnu/bits/statx.h /usr/include/linux/stat.h \
+ /usr/include/linux/types.h /usr/include/x86_64-linux-gnu/asm/types.h \
+ /usr/include/asm-generic/types.h /usr/include/asm-generic/int-ll64.h \
+ /usr/include/x86_64-linux-gnu/asm/bitsperlong.h \
+ /usr/include/asm-generic/bitsperlong.h /usr/include/linux/posix_types.h \
+ /usr/include/linux/stddef.h \
+ /usr/include/x86_64-linux-gnu/asm/posix_types.h \
+ /usr/include/x86_64-linux-gnu/asm/posix_types_64.h \
+ /usr/include/asm-generic/posix_types.h \
+ /usr/include/x86_64-linux-gnu/bits/statx-generic.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_statx_timestamp.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_statx.h \
+ /usr/include/fcntl.h /usr/include/x86_64-linux-gnu/bits/fcntl.h \
+ /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
+ /usr/include/linux/falloc.h /usr/include/unistd.h \
+ /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
+ /usr/include/x86_64-linux-gnu/bits/environments.h \
+ /usr/include/x86_64-linux-gnu/bits/confname.h \
+ /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
+ /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+ /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
+ /usr/include/linux/close_range.h \
+ /usr/include/x86_64-linux-gnu/sys/syscall.h \
+ /usr/include/x86_64-linux-gnu/asm/unistd.h \
+ /usr/include/x86_64-linux-gnu/asm/unistd_64.h \
+ /usr/include/x86_64-linux-gnu/bits/syscall.h \
+ /home/zenith/cpp_projects/go_quant_new/libs/spdlog/include/spdlog/details/log_msg_buffer-inl.h \
+ /home/zenith/cpp_projects/go_quant_new/libs/spdlog/include/spdlog/details/backtracer-inl.h \
+ /home/zenith/cpp_projects/go_quant_new/libs/spdlog/include/spdlog/logger-inl.h \
+ /home/zenith/cpp_projects/go_quant_new/libs/spdlog/include/spdlog/pattern_formatter.h \
+ /home/zenith/cpp_projects/go_quant_new/libs/spdlog/include/spdlog/formatter.h \
+ /home/zenith/cpp_projects/go_quant_new/libs/spdlog/include/spdlog/pattern_formatter-inl.h \
+ /home/zenith/cpp_projects/go_quant_new/libs/spdlog/include/spdlog/details/fmt_helper.h \
+ /home/zenith/cpp_projects/go_quant_new/libs/spdlog/include/spdlog/mdc.h \
+ /usr/include/c++/13/map /usr/include/c++/13/bits/stl_tree.h \
+ /usr/include/c++/13/bits/stl_map.h \
+ /usr/include/c++/13/bits/stl_multimap.h \
+ /home/zenith/cpp_projects/go_quant_new/libs/spdlog/include/spdlog/sinks/sink.h \
+ /home/zenith/cpp_projects/go_quant_new/libs/spdlog/include/spdlog/sinks/sink-inl.h \
+ /home/zenith/cpp_projects/go_quant_new/libs/spdlog/include/spdlog/sinks/ansicolor_sink.h \
+ /home/zenith/cpp_projects/go_quant_new/libs/spdlog/include/spdlog/details/console_globals.h \
+ /home/zenith/cpp_projects/go_quant_new/libs/spdlog/include/spdlog/sinks/ansicolor_sink-inl.h \
+ /home/zenith/cpp_projects/go_quant_new/libs/spdlog/include/spdlog/details/synchronous_factory.h \
+ /home/zenith/cpp_projects/go_quant_new/libs/spdlog/include/spdlog/version.h \
+ /home/zenith/cpp_projects/go_quant_new/libs/spdlog/include/spdlog/spdlog-inl.h \
+ /home/zenith/cpp_projects/go_quant_new/src/../hpp/AuthManager.hpp \
+ /home/zenith/cpp_projects/go_quant_new/src/../hpp/../hpp/Logger.hpp \
+ /home/zenith/cpp_projects/go_quant_new/libs/spdlog/include/spdlog/sinks/basic_file_sink.h \
+ /home/zenith/cpp_projects/go_quant_new/libs/spdlog/include/spdlog/details/file_helper.h \
+ /home/zenith/cpp_projects/go_quant_new/libs/spdlog/include/spdlog/details/file_helper-inl.h \
+ /home/zenith/cpp_projects/go_quant_new/libs/spdlog/include/spdlog/sinks/base_sink.h \
+ /home/zenith/cpp_projects/go_quant_new/libs/spdlog/include/spdlog/sinks/base_sink-inl.h \
+ /home/zenith/cpp_projects/go_quant_new/libs/spdlog/include/spdlog/sinks/basic_file_sink-inl.h \
+ /home/zenith/cpp_projects/go_quant_new/src/../hpp/OrderManager.hpp \
+ /home/zenith/cpp_projects/go_quant_new/src/../hpp/../hpp/ApiRequestManager.hpp \
+ /home/zenith/cpp_projects/go_quant_new/src/../hpp/../hpp/../hpp/AuthManager.hpp \
+ /home/zenith/cpp_projects/go_quant_new/src/../hpp/../hpp/../hpp/json.hpp \
+ /usr/include/c++/13/forward_list /usr/include/c++/13/bits/forward_list.h \
+ /usr/include/c++/13/bits/forward_list.tcc /usr/include/c++/13/valarray \
  /usr/include/c++/13/bits/valarray_array.h \
  /usr/include/c++/13/bits/valarray_array.tcc \
  /usr/include/c++/13/bits/valarray_before.h \
@@ -228,20 +328,9 @@ CMakeFiles/go_quant_new.dir/src/main.cpp.o: \
  /usr/include/c++/13/bits/gslice.h \
  /usr/include/c++/13/bits/gslice_array.h \
  /usr/include/c++/13/bits/mask_array.h \
- /usr/include/c++/13/bits/indirect_array.h /usr/include/c++/13/cstdint \
- /usr/include/c++/13/version /usr/include/c++/13/cassert \
- /usr/include/assert.h /usr/include/c++/13/cstring /usr/include/string.h \
- /usr/include/strings.h /usr/include/c++/13/filesystem \
- /usr/include/c++/13/bits/fs_fwd.h /usr/include/c++/13/bits/chrono.h \
- /usr/include/c++/13/ratio /usr/include/c++/13/ctime \
- /usr/include/c++/13/bits/parse_numbers.h \
- /usr/include/c++/13/bits/fs_path.h /usr/include/c++/13/locale \
- /usr/include/c++/13/bits/locale_facets_nonio.h \
- /usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h \
- /usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h \
- /usr/include/libintl.h /usr/include/c++/13/bits/codecvt.h \
- /usr/include/c++/13/bits/locale_facets_nonio.tcc \
- /usr/include/c++/13/bits/locale_conv.h /usr/include/c++/13/iomanip \
+ /usr/include/c++/13/bits/indirect_array.h /usr/include/c++/13/version \
+ /usr/include/c++/13/filesystem /usr/include/c++/13/bits/fs_fwd.h \
+ /usr/include/c++/13/bits/fs_path.h /usr/include/c++/13/iomanip \
  /usr/include/c++/13/bits/quoted_string.h /usr/include/c++/13/sstream \
  /usr/include/c++/13/bits/sstream.tcc /usr/include/c++/13/codecvt \
  /usr/include/c++/13/bits/fs_dir.h /usr/include/c++/13/bits/fs_ops.h \
@@ -252,29 +341,14 @@ CMakeFiles/go_quant_new.dir/src/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/curl/curlver.h \
  /usr/include/x86_64-linux-gnu/curl/system.h \
  /usr/include/x86_64-linux-gnu/sys/socket.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
  /usr/include/x86_64-linux-gnu/bits/socket.h \
  /usr/include/x86_64-linux-gnu/bits/socket_type.h \
  /usr/include/x86_64-linux-gnu/bits/sockaddr.h \
  /usr/include/x86_64-linux-gnu/asm/socket.h \
- /usr/include/asm-generic/socket.h /usr/include/linux/posix_types.h \
- /usr/include/linux/stddef.h \
- /usr/include/x86_64-linux-gnu/asm/posix_types.h \
- /usr/include/x86_64-linux-gnu/asm/posix_types_64.h \
- /usr/include/asm-generic/posix_types.h \
- /usr/include/x86_64-linux-gnu/asm/bitsperlong.h \
- /usr/include/asm-generic/bitsperlong.h \
+ /usr/include/asm-generic/socket.h \
  /usr/include/x86_64-linux-gnu/asm/sockios.h \
  /usr/include/asm-generic/sockios.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h \
- /usr/lib/gcc/x86_64-linux-gnu/13/include/limits.h \
- /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h \
- /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
- /usr/include/x86_64-linux-gnu/bits/local_lim.h \
- /usr/include/linux/limits.h \
- /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
- /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
- /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
  /usr/include/x86_64-linux-gnu/sys/time.h \
  /usr/include/x86_64-linux-gnu/curl/easy.h \
  /usr/include/x86_64-linux-gnu/curl/multi.h \
@@ -284,6 +358,7 @@ CMakeFiles/go_quant_new.dir/src/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/curl/header.h \
  /usr/include/x86_64-linux-gnu/curl/websockets.h \
  /usr/include/x86_64-linux-gnu/curl/mprintf.h \
+ /home/zenith/cpp_projects/go_quant_new/src/../hpp/../hpp/../hpp/Logger.hpp \
  /home/zenith/cpp_projects/go_quant_new/src/../hpp/ApiRequestManager.hpp \
  /home/zenith/cpp_projects/go_quant_new/src/../hpp/WebSocketServer.hpp \
  /home/zenith/cpp_projects/go_quant_new/libs/uWebSockets/src/App.h \
@@ -291,26 +366,14 @@ CMakeFiles/go_quant_new.dir/src/main.cpp.o: \
  /home/zenith/cpp_projects/go_quant_new/libs/uWebSockets/src/HttpContext.h \
  /home/zenith/cpp_projects/go_quant_new/libs/uWebSockets/src/Loop.h \
  /home/zenith/cpp_projects/go_quant_new/libs/uWebSockets/src/LoopData.h \
- /usr/include/c++/13/thread /usr/include/c++/13/bits/std_thread.h \
- /usr/include/c++/13/bits/this_thread_sleep.h /usr/include/c++/13/mutex \
- /usr/include/c++/13/bits/std_mutex.h \
- /usr/include/c++/13/bits/unique_lock.h \
  /home/zenith/cpp_projects/go_quant_new/libs/uWebSockets/src/PerMessageDeflate.h \
- /usr/include/zlib.h /usr/include/zconf.h /usr/include/unistd.h \
- /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
- /usr/include/x86_64-linux-gnu/bits/environments.h \
- /usr/include/x86_64-linux-gnu/bits/confname.h \
- /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
- /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
- /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
- /usr/include/linux/close_range.h \
+ /usr/include/zlib.h /usr/include/zconf.h \
  /home/zenith/cpp_projects/go_quant_new/libs/uWebSockets/src/MoveOnlyFunction.h \
  /home/zenith/cpp_projects/go_quant_new/libs/uSockets/src/libusockets.h \
  /home/zenith/cpp_projects/go_quant_new/libs/uWebSockets/src/HttpContextData.h \
  /home/zenith/cpp_projects/go_quant_new/libs/uWebSockets/src/HttpRouter.h \
  /home/zenith/cpp_projects/go_quant_new/libs/uWebSockets/src/HttpResponseData.h \
  /home/zenith/cpp_projects/go_quant_new/libs/uWebSockets/src/HttpParser.h \
- /usr/include/c++/13/climits \
  /home/zenith/cpp_projects/go_quant_new/libs/uWebSockets/src/ChunkedEncoding.h \
  /home/zenith/cpp_projects/go_quant_new/libs/uWebSockets/src/BloomFilter.h \
  /usr/include/c++/13/bitset \
@@ -341,8 +404,6 @@ CMakeFiles/go_quant_new.dir/src/main.cpp.o: \
  /usr/include/libwebsockets.h /usr/include/c++/13/cstdarg \
  /usr/include/c++/13/stdlib.h /usr/include/lws_config.h \
  /usr/include/sys/capability.h /usr/include/linux/capability.h \
- /usr/include/linux/types.h /usr/include/x86_64-linux-gnu/asm/types.h \
- /usr/include/asm-generic/types.h /usr/include/asm-generic/int-ll64.h \
  /usr/include/poll.h /usr/include/x86_64-linux-gnu/sys/poll.h \
  /usr/include/x86_64-linux-gnu/bits/poll.h /usr/include/netdb.h \
  /usr/include/netinet/in.h /usr/include/x86_64-linux-gnu/bits/in.h \
@@ -464,8 +525,6 @@ CMakeFiles/go_quant_new.dir/src/main.cpp.o: \
  /usr/include/libwebsockets/lws-settings.h \
  /usr/include/libwebsockets/lws-netdev.h \
  /home/zenith/cpp_projects/go_quant_new/src/../hpp/../hpp/../hpp/../hpp/AuthManager.hpp \
- /usr/include/c++/13/atomic \
- /home/zenith/cpp_projects/go_quant_new/src/../hpp/websocket_client.hpp \
  /home/zenith/cpp_projects/go_quant_new/src/../hpp/rest_server.hpp \
  /home/zenith/cpp_projects/go_quant_new/src/../hpp/../hpp/crow_all.h \
  /usr/include/boost/date_time/local_time/local_time.hpp \
@@ -1367,16 +1426,7 @@ CMakeFiles/go_quant_new.dir/src/main.cpp.o: \
  /usr/include/boost/asio/detail/select_interrupter.hpp \
  /usr/include/boost/asio/detail/eventfd_select_interrupter.hpp \
  /usr/include/boost/asio/detail/impl/eventfd_select_interrupter.ipp \
- /usr/include/x86_64-linux-gnu/sys/stat.h \
- /usr/include/x86_64-linux-gnu/bits/stat.h \
- /usr/include/x86_64-linux-gnu/bits/struct_stat.h \
- /usr/include/x86_64-linux-gnu/bits/statx.h /usr/include/linux/stat.h \
- /usr/include/x86_64-linux-gnu/bits/statx-generic.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct_statx_timestamp.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct_statx.h \
- /usr/include/fcntl.h /usr/include/x86_64-linux-gnu/bits/fcntl.h \
- /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
- /usr/include/linux/falloc.h /usr/include/x86_64-linux-gnu/sys/eventfd.h \
+ /usr/include/x86_64-linux-gnu/sys/eventfd.h \
  /usr/include/x86_64-linux-gnu/bits/eventfd.h \
  /usr/include/boost/asio/detail/socket_types.hpp \
  /usr/include/x86_64-linux-gnu/sys/ioctl.h \
@@ -1421,7 +1471,7 @@ CMakeFiles/go_quant_new.dir/src/main.cpp.o: \
  /usr/include/boost/asio/io_context.hpp \
  /usr/include/boost/asio/detail/wrapped_handler.hpp \
  /usr/include/boost/asio/detail/bind_handler.hpp \
- /usr/include/boost/asio/detail/chrono.hpp /usr/include/c++/13/chrono \
+ /usr/include/boost/asio/detail/chrono.hpp \
  /usr/include/boost/asio/impl/io_context.hpp \
  /usr/include/boost/asio/detail/completion_handler.hpp \
  /usr/include/boost/asio/detail/handler_work.hpp \
@@ -1633,7 +1683,6 @@ CMakeFiles/go_quant_new.dir/src/main.cpp.o: \
  /usr/include/boost/asio/local/stream_protocol.hpp \
  /usr/include/boost/asio/packaged_task.hpp \
  /usr/include/boost/asio/detail/future.hpp /usr/include/c++/13/future \
- /usr/include/c++/13/condition_variable \
  /usr/include/c++/13/bits/atomic_futex.h \
  /usr/include/boost/asio/placeholders.hpp /usr/include/boost/bind/arg.hpp \
  /usr/include/boost/is_placeholder.hpp \
@@ -1824,4 +1873,5 @@ CMakeFiles/go_quant_new.dir/src/main.cpp.o: \
  /usr/include/boost/asio/writable_pipe.hpp \
  /usr/include/boost/asio/write_at.hpp \
  /usr/include/boost/asio/impl/write_at.hpp \
- /home/zenith/cpp_projects/go_quant_new/src/../hpp/../hpp/OrderManager.hpp
+ /home/zenith/cpp_projects/go_quant_new/src/../hpp/../hpp/OrderManager.hpp \
+ /home/zenith/cpp_projects/go_quant_new/src/../hpp/Logger.hpp

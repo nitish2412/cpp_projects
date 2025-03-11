@@ -111,10 +111,24 @@ CMakeFiles/go_quant_new.dir/src/ClientSession.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/go_quant_new.dir/src/ClientSession.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zenith/cpp_projects/go_quant_new/src/ClientSession.cpp -o CMakeFiles/go_quant_new.dir/src/ClientSession.cpp.s
 
+CMakeFiles/go_quant_new.dir/src/Logger.cpp.o: CMakeFiles/go_quant_new.dir/flags.make
+CMakeFiles/go_quant_new.dir/src/Logger.cpp.o: /home/zenith/cpp_projects/go_quant_new/src/Logger.cpp
+CMakeFiles/go_quant_new.dir/src/Logger.cpp.o: CMakeFiles/go_quant_new.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/zenith/cpp_projects/go_quant_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/go_quant_new.dir/src/Logger.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/go_quant_new.dir/src/Logger.cpp.o -MF CMakeFiles/go_quant_new.dir/src/Logger.cpp.o.d -o CMakeFiles/go_quant_new.dir/src/Logger.cpp.o -c /home/zenith/cpp_projects/go_quant_new/src/Logger.cpp
+
+CMakeFiles/go_quant_new.dir/src/Logger.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/go_quant_new.dir/src/Logger.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zenith/cpp_projects/go_quant_new/src/Logger.cpp > CMakeFiles/go_quant_new.dir/src/Logger.cpp.i
+
+CMakeFiles/go_quant_new.dir/src/Logger.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/go_quant_new.dir/src/Logger.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zenith/cpp_projects/go_quant_new/src/Logger.cpp -o CMakeFiles/go_quant_new.dir/src/Logger.cpp.s
+
 CMakeFiles/go_quant_new.dir/src/MarketDataFetcher.cpp.o: CMakeFiles/go_quant_new.dir/flags.make
 CMakeFiles/go_quant_new.dir/src/MarketDataFetcher.cpp.o: /home/zenith/cpp_projects/go_quant_new/src/MarketDataFetcher.cpp
 CMakeFiles/go_quant_new.dir/src/MarketDataFetcher.cpp.o: CMakeFiles/go_quant_new.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/zenith/cpp_projects/go_quant_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/go_quant_new.dir/src/MarketDataFetcher.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/zenith/cpp_projects/go_quant_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/go_quant_new.dir/src/MarketDataFetcher.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/go_quant_new.dir/src/MarketDataFetcher.cpp.o -MF CMakeFiles/go_quant_new.dir/src/MarketDataFetcher.cpp.o.d -o CMakeFiles/go_quant_new.dir/src/MarketDataFetcher.cpp.o -c /home/zenith/cpp_projects/go_quant_new/src/MarketDataFetcher.cpp
 
 CMakeFiles/go_quant_new.dir/src/MarketDataFetcher.cpp.i: cmake_force
@@ -128,7 +142,7 @@ CMakeFiles/go_quant_new.dir/src/MarketDataFetcher.cpp.s: cmake_force
 CMakeFiles/go_quant_new.dir/src/MessageHandler.cpp.o: CMakeFiles/go_quant_new.dir/flags.make
 CMakeFiles/go_quant_new.dir/src/MessageHandler.cpp.o: /home/zenith/cpp_projects/go_quant_new/src/MessageHandler.cpp
 CMakeFiles/go_quant_new.dir/src/MessageHandler.cpp.o: CMakeFiles/go_quant_new.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/zenith/cpp_projects/go_quant_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/go_quant_new.dir/src/MessageHandler.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/zenith/cpp_projects/go_quant_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/go_quant_new.dir/src/MessageHandler.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/go_quant_new.dir/src/MessageHandler.cpp.o -MF CMakeFiles/go_quant_new.dir/src/MessageHandler.cpp.o.d -o CMakeFiles/go_quant_new.dir/src/MessageHandler.cpp.o -c /home/zenith/cpp_projects/go_quant_new/src/MessageHandler.cpp
 
 CMakeFiles/go_quant_new.dir/src/MessageHandler.cpp.i: cmake_force
@@ -142,7 +156,7 @@ CMakeFiles/go_quant_new.dir/src/MessageHandler.cpp.s: cmake_force
 CMakeFiles/go_quant_new.dir/src/OrderManager.cpp.o: CMakeFiles/go_quant_new.dir/flags.make
 CMakeFiles/go_quant_new.dir/src/OrderManager.cpp.o: /home/zenith/cpp_projects/go_quant_new/src/OrderManager.cpp
 CMakeFiles/go_quant_new.dir/src/OrderManager.cpp.o: CMakeFiles/go_quant_new.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/zenith/cpp_projects/go_quant_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/go_quant_new.dir/src/OrderManager.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/zenith/cpp_projects/go_quant_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/go_quant_new.dir/src/OrderManager.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/go_quant_new.dir/src/OrderManager.cpp.o -MF CMakeFiles/go_quant_new.dir/src/OrderManager.cpp.o.d -o CMakeFiles/go_quant_new.dir/src/OrderManager.cpp.o -c /home/zenith/cpp_projects/go_quant_new/src/OrderManager.cpp
 
 CMakeFiles/go_quant_new.dir/src/OrderManager.cpp.i: cmake_force
@@ -156,7 +170,7 @@ CMakeFiles/go_quant_new.dir/src/OrderManager.cpp.s: cmake_force
 CMakeFiles/go_quant_new.dir/src/SubscriptionManager.cpp.o: CMakeFiles/go_quant_new.dir/flags.make
 CMakeFiles/go_quant_new.dir/src/SubscriptionManager.cpp.o: /home/zenith/cpp_projects/go_quant_new/src/SubscriptionManager.cpp
 CMakeFiles/go_quant_new.dir/src/SubscriptionManager.cpp.o: CMakeFiles/go_quant_new.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/zenith/cpp_projects/go_quant_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/go_quant_new.dir/src/SubscriptionManager.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/zenith/cpp_projects/go_quant_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/go_quant_new.dir/src/SubscriptionManager.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/go_quant_new.dir/src/SubscriptionManager.cpp.o -MF CMakeFiles/go_quant_new.dir/src/SubscriptionManager.cpp.o.d -o CMakeFiles/go_quant_new.dir/src/SubscriptionManager.cpp.o -c /home/zenith/cpp_projects/go_quant_new/src/SubscriptionManager.cpp
 
 CMakeFiles/go_quant_new.dir/src/SubscriptionManager.cpp.i: cmake_force
@@ -170,7 +184,7 @@ CMakeFiles/go_quant_new.dir/src/SubscriptionManager.cpp.s: cmake_force
 CMakeFiles/go_quant_new.dir/src/Utils.cpp.o: CMakeFiles/go_quant_new.dir/flags.make
 CMakeFiles/go_quant_new.dir/src/Utils.cpp.o: /home/zenith/cpp_projects/go_quant_new/src/Utils.cpp
 CMakeFiles/go_quant_new.dir/src/Utils.cpp.o: CMakeFiles/go_quant_new.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/zenith/cpp_projects/go_quant_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/go_quant_new.dir/src/Utils.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/zenith/cpp_projects/go_quant_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/go_quant_new.dir/src/Utils.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/go_quant_new.dir/src/Utils.cpp.o -MF CMakeFiles/go_quant_new.dir/src/Utils.cpp.o.d -o CMakeFiles/go_quant_new.dir/src/Utils.cpp.o -c /home/zenith/cpp_projects/go_quant_new/src/Utils.cpp
 
 CMakeFiles/go_quant_new.dir/src/Utils.cpp.i: cmake_force
@@ -184,7 +198,7 @@ CMakeFiles/go_quant_new.dir/src/Utils.cpp.s: cmake_force
 CMakeFiles/go_quant_new.dir/src/WebSocketServer.cpp.o: CMakeFiles/go_quant_new.dir/flags.make
 CMakeFiles/go_quant_new.dir/src/WebSocketServer.cpp.o: /home/zenith/cpp_projects/go_quant_new/src/WebSocketServer.cpp
 CMakeFiles/go_quant_new.dir/src/WebSocketServer.cpp.o: CMakeFiles/go_quant_new.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/zenith/cpp_projects/go_quant_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/go_quant_new.dir/src/WebSocketServer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/zenith/cpp_projects/go_quant_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/go_quant_new.dir/src/WebSocketServer.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/go_quant_new.dir/src/WebSocketServer.cpp.o -MF CMakeFiles/go_quant_new.dir/src/WebSocketServer.cpp.o.d -o CMakeFiles/go_quant_new.dir/src/WebSocketServer.cpp.o -c /home/zenith/cpp_projects/go_quant_new/src/WebSocketServer.cpp
 
 CMakeFiles/go_quant_new.dir/src/WebSocketServer.cpp.i: cmake_force
@@ -198,7 +212,7 @@ CMakeFiles/go_quant_new.dir/src/WebSocketServer.cpp.s: cmake_force
 CMakeFiles/go_quant_new.dir/src/main.cpp.o: CMakeFiles/go_quant_new.dir/flags.make
 CMakeFiles/go_quant_new.dir/src/main.cpp.o: /home/zenith/cpp_projects/go_quant_new/src/main.cpp
 CMakeFiles/go_quant_new.dir/src/main.cpp.o: CMakeFiles/go_quant_new.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/zenith/cpp_projects/go_quant_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/go_quant_new.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/zenith/cpp_projects/go_quant_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/go_quant_new.dir/src/main.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/go_quant_new.dir/src/main.cpp.o -MF CMakeFiles/go_quant_new.dir/src/main.cpp.o.d -o CMakeFiles/go_quant_new.dir/src/main.cpp.o -c /home/zenith/cpp_projects/go_quant_new/src/main.cpp
 
 CMakeFiles/go_quant_new.dir/src/main.cpp.i: cmake_force
@@ -212,7 +226,7 @@ CMakeFiles/go_quant_new.dir/src/main.cpp.s: cmake_force
 CMakeFiles/go_quant_new.dir/src/rest_server.cpp.o: CMakeFiles/go_quant_new.dir/flags.make
 CMakeFiles/go_quant_new.dir/src/rest_server.cpp.o: /home/zenith/cpp_projects/go_quant_new/src/rest_server.cpp
 CMakeFiles/go_quant_new.dir/src/rest_server.cpp.o: CMakeFiles/go_quant_new.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/zenith/cpp_projects/go_quant_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/go_quant_new.dir/src/rest_server.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/zenith/cpp_projects/go_quant_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/go_quant_new.dir/src/rest_server.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/go_quant_new.dir/src/rest_server.cpp.o -MF CMakeFiles/go_quant_new.dir/src/rest_server.cpp.o.d -o CMakeFiles/go_quant_new.dir/src/rest_server.cpp.o -c /home/zenith/cpp_projects/go_quant_new/src/rest_server.cpp
 
 CMakeFiles/go_quant_new.dir/src/rest_server.cpp.i: cmake_force
@@ -226,7 +240,7 @@ CMakeFiles/go_quant_new.dir/src/rest_server.cpp.s: cmake_force
 CMakeFiles/go_quant_new.dir/src/websocket_client.cpp.o: CMakeFiles/go_quant_new.dir/flags.make
 CMakeFiles/go_quant_new.dir/src/websocket_client.cpp.o: /home/zenith/cpp_projects/go_quant_new/src/websocket_client.cpp
 CMakeFiles/go_quant_new.dir/src/websocket_client.cpp.o: CMakeFiles/go_quant_new.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/zenith/cpp_projects/go_quant_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/go_quant_new.dir/src/websocket_client.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/zenith/cpp_projects/go_quant_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/go_quant_new.dir/src/websocket_client.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/go_quant_new.dir/src/websocket_client.cpp.o -MF CMakeFiles/go_quant_new.dir/src/websocket_client.cpp.o.d -o CMakeFiles/go_quant_new.dir/src/websocket_client.cpp.o -c /home/zenith/cpp_projects/go_quant_new/src/websocket_client.cpp
 
 CMakeFiles/go_quant_new.dir/src/websocket_client.cpp.i: cmake_force
@@ -242,6 +256,7 @@ go_quant_new_OBJECTS = \
 "CMakeFiles/go_quant_new.dir/src/ApiRequestManager.cpp.o" \
 "CMakeFiles/go_quant_new.dir/src/AuthManager.cpp.o" \
 "CMakeFiles/go_quant_new.dir/src/ClientSession.cpp.o" \
+"CMakeFiles/go_quant_new.dir/src/Logger.cpp.o" \
 "CMakeFiles/go_quant_new.dir/src/MarketDataFetcher.cpp.o" \
 "CMakeFiles/go_quant_new.dir/src/MessageHandler.cpp.o" \
 "CMakeFiles/go_quant_new.dir/src/OrderManager.cpp.o" \
@@ -258,6 +273,7 @@ go_quant_new_EXTERNAL_OBJECTS =
 go_quant_new: CMakeFiles/go_quant_new.dir/src/ApiRequestManager.cpp.o
 go_quant_new: CMakeFiles/go_quant_new.dir/src/AuthManager.cpp.o
 go_quant_new: CMakeFiles/go_quant_new.dir/src/ClientSession.cpp.o
+go_quant_new: CMakeFiles/go_quant_new.dir/src/Logger.cpp.o
 go_quant_new: CMakeFiles/go_quant_new.dir/src/MarketDataFetcher.cpp.o
 go_quant_new: CMakeFiles/go_quant_new.dir/src/MessageHandler.cpp.o
 go_quant_new: CMakeFiles/go_quant_new.dir/src/OrderManager.cpp.o
@@ -272,7 +288,7 @@ go_quant_new: /home/zenith/cpp_projects/go_quant_new/libs/uSockets/uSockets.a
 go_quant_new: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.83.0
 go_quant_new: /usr/lib/x86_64-linux-gnu/libcurl.so
 go_quant_new: CMakeFiles/go_quant_new.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/zenith/cpp_projects/go_quant_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable go_quant_new"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/zenith/cpp_projects/go_quant_new/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable go_quant_new"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/go_quant_new.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -201,6 +201,30 @@ src/ClientSession.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/go_quant_new.dir/build.make CMakeFiles/go_quant_new.dir/src/ClientSession.cpp.s
 .PHONY : src/ClientSession.cpp.s
 
+src/Logger.o: src/Logger.cpp.o
+.PHONY : src/Logger.o
+
+# target to build an object file
+src/Logger.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/go_quant_new.dir/build.make CMakeFiles/go_quant_new.dir/src/Logger.cpp.o
+.PHONY : src/Logger.cpp.o
+
+src/Logger.i: src/Logger.cpp.i
+.PHONY : src/Logger.i
+
+# target to preprocess a source file
+src/Logger.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/go_quant_new.dir/build.make CMakeFiles/go_quant_new.dir/src/Logger.cpp.i
+.PHONY : src/Logger.cpp.i
+
+src/Logger.s: src/Logger.cpp.s
+.PHONY : src/Logger.s
+
+# target to generate assembly for a file
+src/Logger.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/go_quant_new.dir/build.make CMakeFiles/go_quant_new.dir/src/Logger.cpp.s
+.PHONY : src/Logger.cpp.s
+
 src/MarketDataFetcher.o: src/MarketDataFetcher.cpp.o
 .PHONY : src/MarketDataFetcher.o
 
@@ -435,6 +459,9 @@ help:
 	@echo "... src/ClientSession.o"
 	@echo "... src/ClientSession.i"
 	@echo "... src/ClientSession.s"
+	@echo "... src/Logger.o"
+	@echo "... src/Logger.i"
+	@echo "... src/Logger.s"
 	@echo "... src/MarketDataFetcher.o"
 	@echo "... src/MarketDataFetcher.i"
 	@echo "... src/MarketDataFetcher.s"

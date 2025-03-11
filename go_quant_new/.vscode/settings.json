@@ -72,6 +72,16 @@
         "cinttypes": "cpp",
         "typeinfo": "cpp",
         "valarray": "cpp",
-        "variant": "cpp"
-    }
+        "variant": "cpp",
+        "csignal": "cpp",
+        "strstream": "cpp",
+        "complex": "cpp",
+        "coroutine": "cpp",
+        "expected": "cpp",
+        "regex": "cpp",
+        "source_location": "cpp",
+        "shared_mutex": "cpp",
+        "typeindex": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "disabled"
 }

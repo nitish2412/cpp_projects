@@ -119,6 +119,16 @@ bool OrderManager::viewCurrentPositions(std::string& responseString) {
     return processResponse(responseString);
 }
 
+bool OrderManager::fetchInstruments(std::string& responseString) {
+    std::string url = baseUrl + "/api/v2/public/get_instruments?currency=BTC&expired=false";
+    std::string dummy_data = "dummy";
+    
+    if (!apiRequestManager->sendRequest(url, "GET", dummy_data, responseString)) {
+        return false;
+    }
+    
+    return processResponse(responseString);
+}
 
 // Process JSON response
 bool OrderManager::processResponse(std::string& responseString) {
